@@ -1,0 +1,192 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\cores\\esp32"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\variants\\esp32"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "ArduinoJson.h",
+    "Includepath": "C:\\Users\\TeeKlub\\Documents\\Arduino\\libraries\\ArduinoJson\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "WiFiManager.h",
+    "Includepath": "C:\\Users\\TeeKlub\\Documents\\Arduino\\libraries\\WiFiManager"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "WiFi.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "Update.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Update\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "WebServer.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WebServer\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "DNSServer.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\DNSServer\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "HTTPClient.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\HTTPClient\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "WiFiClientSecure.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFiClientSecure\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "Wire.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Wire\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "SparkFun_SCD30_Arduino_Library.h",
+    "Includepath": "C:\\Users\\TeeKlub\\Documents\\Arduino\\libraries\\SparkFun_SCD30_Arduino_Library-main\\src"
+  },
+  {
+    "Sourcefile": "C:\\xampp\\htdocs\\final\\Final-Project\\Build_ESP32\\sketch\\Arduino_ESP32.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\Documents\\Arduino\\libraries\\WiFiManager\\WiFiManager.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFi.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiAP.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiGeneric.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiMulti.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiSTA.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiScan.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFi\\src\\WiFiUdp.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Update\\src\\HttpsOTAUpdate.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Update\\src\\Updater.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WebServer\\src\\Parsing.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WebServer\\src\\WebServer.cpp",
+    "Include": "FS.h",
+    "Includepath": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\FS\\src"
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WebServer\\src\\WebServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WebServer\\src\\detail\\mimetable.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\DNSServer\\src\\DNSServer.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\HTTPClient\\src\\HTTPClient.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFiClientSecure\\src\\WiFiClientSecure.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFiClientSecure\\src\\esp_crt_bundle.c",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\WiFiClientSecure\\src\\ssl_client.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\Wire\\src\\Wire.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\Documents\\Arduino\\libraries\\SparkFun_SCD30_Arduino_Library-main\\src\\SparkFun_SCD30_Arduino_Library.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\FS\\src\\FS.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "C:\\Users\\TeeKlub\\AppData\\Local\\Arduino15\\packages\\esp32\\hardware\\esp32\\2.0.11\\libraries\\FS\\src\\vfs_api.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]

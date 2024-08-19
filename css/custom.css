@@ -1,0 +1,367 @@
+h3>span,
+h3>img {
+  float: right;
+}
+
+h3>img {
+  height: 1.2rem;
+  margin-top: 7px;
+  margin-right: 3px;
+}
+
+.text-controller {
+  font-size: large;
+}
+
+.controller-status {
+  text-align: center !important;
+  font-size: 1.2rem !important;
+}
+
+.img-control{
+  width: 3rem !important;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 1839px){
+  .status-graph{
+    width: 100% !important;
+  }
+
+  .status-sensor{
+    width: 100% !important;
+  }
+
+  .card-sensor{
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+    flex: 1 0 0%;
+    display: block !important;
+  }
+}
+
+@media screen and (max-width: 1743px){
+  .status-controller{
+    width: 100% !important;
+  }
+
+}
+
+@media screen and (max-width: 849px){
+  .text-sensor{
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 633px){
+  .text-sensor{
+    width: 50% !important;
+  }
+  .card-sensor{
+    padding-left: 0;
+    padding-right: 0;
+    flex: 1 0 auto;
+    width: 100% !important;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .card-controller{
+    width: 100%;
+  }
+
+  .status-controller{
+    width: 50% !important;
+  }
+  .temp-max, .humi-max, .co2-max{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 441px) {
+  .temp-max, .humi-max, .co2-max{
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .temp-max, .humi-max, .co2-max{
+    font-size: 0.8rem;
+  }
+
+  .text-graph{
+    font-size: 1rem;
+  }
+
+  .status-controller{
+    width: 100% !important;
+    margin-top: 2px;
+    margin-bottom: 2px;
+  }
+}
+
+@media screen and (max-width: 407px) {
+  .temp-max, .humi-max, .co2-max{
+    font-size: 0.6rem;
+  }
+
+  .text-graph{
+    font-size: 0.8rem;
+  }
+}
+
+
+
+/* Toggle Switch */
+/* The switch - the box around the slider */
+.switch-fan,
+.switch-valve,
+.switch-led,
+.switch-pump {
+  font-size: 17px;
+  position: relative;
+  display: inline-block;
+  width: 3.5em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch-fan input,
+.switch-valve input,
+.switch-led input,
+.switch-pump input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(182, 182, 182);
+  transition: .4s;
+  border-radius: 10px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1.4em;
+  width: 1.4em;
+  border-radius: 8px;
+  left: 0.3em;
+  bottom: 0.3em;
+  transform: rotate(270deg);
+  background-color: rgb(255, 255, 255);
+  transition: .4s;
+}
+
+.switch-fan input:checked+.slider,
+.switch-valve input:checked+.slider,
+.switch-led input:checked+.slider,
+.switch-pump input:checked+.slider {
+  background-color: #21cc4c;
+}
+
+.switch-fan input:focus+.slider,
+.switch-valve input:focus+.slider,
+.switch-led input:focus+.slider,
+.switch-pump input:focus+.slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+.switch-fan input:checked+.slider:before,
+.switch-valve input:checked+.slider:before,
+.switch-led input:checked+.slider:before,
+.switch-pump input:checked+.slider:before {
+  transform: translateX(1.5em);
+}
+
+/* Auto Button */
+/* Hide the default checkbox */
+/* .autobt input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.autobt {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  font-size: 20px;
+  user-select: none;
+  width: fit-content !important;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 6em;
+  height: 6em;
+  border-radius: 50%;
+  border: 6px solid #383838;
+  background-color: #B6B6B6;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+html[data-bs-theme=dark] .circle {
+  background-color: #282828;
+}
+
+.circle span {
+  color: #282828;
+  font-size: small;
+}
+
+html[data-bs-theme=dark] .circle span {
+  color: #e5e4e2;
+}
+
+.circle .led {
+  width: 1em;
+  height: 0.2em;
+  background-color: #fff;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+
+html[data-bs-theme=dark] .circle .led {
+  background-color: #BBBBBB;
+}
+
+
+
+.auto-text {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1rem !important;
+}
+
+.mode-text{
+  margin-top: -2px;
+  font-weight: bold;
+  font-size: 1rem !important;
+}
+
+.autobt input:checked ~ .circle .led {
+  background-color: #25a059;
+  box-shadow: #25a059 0px 1px 0px, #25a059 0px 0px 8px;
+}
+
+.autobt input:checked ~ .circle {
+  box-shadow: rgba(188, 240, 173, 0.834) 0px 2px 4px 0px,
+   rgba(188, 240, 173, 0.834) 0px 2px 16px 0px,
+   inset 3px 3px 8px 1px #25a059,
+   inset -3px -3px 8px 1px #25a059;
+}
+html[data-bs-theme=dark] .autobt input:checked ~ .circle {
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+   rgba(14, 30, 37, 0.32) 0px 2px 16px 0px,
+   inset 3px 3px 8px 1px #485871,
+   inset -3px -3px 8px 1px #485871;
+} */
+
+/* Auto Button */
+
+.btn-lock {
+  position: fixed;
+  bottom: 10px !important;
+  right: 10px !important; 
+  display: inline-block;
+  background: #ff5b5b;
+  width: 64px !important;
+  height: 64px !important;
+  box-sizing: border-box;
+  padding: 12px 0 0 16px !important;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-lock svg {
+  fill: none;
+  transform: translate3d(0, 0, 0);
+}
+
+.btn-lock svg .bling {
+  stroke: #fff;
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-dasharray: 3;
+  stroke-dashoffset: 15;
+  transition: all 0.3s ease;
+}
+
+.btn-lock svg .lock {
+  stroke: #fff;
+  stroke-width: 4;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  stroke-dasharray: 36;
+  transition: all 0.4s ease;
+}
+
+.btn-lock svg .lockb {
+  fill: #fff;
+  fill-rule: evenodd;
+  clip-rule: evenodd;
+  transform: rotate(8deg);
+  transform-origin: 14px 20px;
+  transition: all 0.2s ease;
+}
+
+#auto-bt {
+  display: none;
+}
+
+#auto-bt:checked + label {
+  background: #20cca5;
+}
+
+#auto-bt:checked + label svg {
+  opacity: 1;
+}
+
+#auto-bt:checked + label svg .bling {
+  animation: bling6132 0.3s linear forwards;
+  animation-delay: 0.2s;
+}
+
+#auto-bt:checked + label svg .lock {
+  stroke-dasharray: 48;
+  animation: locked 0.3s linear forwards;
+}
+
+#auto-bt:checked + label svg .lockb {
+  transform: rotate(0);
+  transform-origin: 14px 22px;
+}
+
+@keyframes bling6132 {
+  50% {
+    stroke-dasharray: 3;
+    stroke-dashoffset: 12;
+  }
+
+  100% {
+    stroke-dasharray: 3;
+    stroke-dashoffset: 9;
+  }
+}
+
+@keyframes locked {
+  50% {
+    transform: translateY(1px);
+  }
+}
+

@@ -1,0 +1,119 @@
+.rounded.float-end {
+    width: 1.6rem !important;
+}
+
+.rounded.float-end,
+.row-farm {
+    display: inline-block !important;
+}
+
+.select-row-data,
+#bt-add {
+    display: inline-block !important;
+}
+
+.bt-table {
+    width: 2rem;
+}
+
+.bt-add-row {
+    width: 1.5rem;
+    margin-bottom: 2px;
+}
+
+.bt-del-row {
+    width: 1.5rem;
+}
+
+#table1 {
+    width: 100% !important;
+}
+
+/* th,
+td {
+    white-space: nowrap;
+} */
+
+
+div.dataTables_length {
+    text-align: left !important;
+}
+
+
+.prevent-select {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10 and IE 11 */
+    user-select: none;
+    /* Standard syntax */
+}
+
+@media screen and (max-width: 1500px) {
+    .col-data-row {
+        width: 50% !important;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .card-data-row {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 1672px) {
+
+    table.table td,
+    table.table th {
+        font-size: 1rem !important;
+    }
+}
+
+@media screen and (max-width: 1448px) {
+
+    table.table td,
+    table.table th {
+        font-size: 0.9rem !important;
+    }
+
+}
+
+@media screen and (max-width: 1006px) {
+    div.dataTables_wrapper {
+        width: 900px;
+        margin: 0 auto;
+    }
+    div.dt-buttons {
+        margin-bottom: 1rem !important;
+    }
+    div.dataTables_filter,
+    div.dataTables_info,
+    div.dataTables_paginate {
+        text-align: center !important;
+    }
+    ul.pagination {
+        justify-content: center !important;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.dataTables_filter,
+    div.dataTables_info,
+    div.dataTables_paginate {
+        text-align: center;
+        margin-right: 10rem !important;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    div.dataTables_filter,
+    div.dataTables_info,
+    div.dataTables_paginate {
+        text-align: center;
+        margin-right: 30rem !important;
+    }
+    div.dataTables_filter{
+        text-align: left !important;
+        margin-bottom: 1rem !important;
+    }
+}
