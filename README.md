@@ -1,4 +1,4 @@
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+![Logo](https://github.com/TeeSaksit/Mushroom-farming-project-with-IoT/blob/main/img/png/logo-mushroom.png)
 
 # Mushroom-farming-project-with-IoT
 It is a bachelor's degree project.
